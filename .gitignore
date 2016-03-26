@@ -61,6 +61,15 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
+# json
+*.json
+
 # Init files
 *.yml
 *.ini
+
+# Especifed files
+Twitter/datosCuentaTwitter.ini
+ElTiempo/datosCuentaElTiempo.ini
+Correo/datoscorreo.ini
+Calendario/client_secret.json
