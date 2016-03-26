@@ -62,5 +62,5 @@ target/
 .ipynb_checkpoints
 
 # Init files
-.yml
-.ini
+*.yml
+*.ini
