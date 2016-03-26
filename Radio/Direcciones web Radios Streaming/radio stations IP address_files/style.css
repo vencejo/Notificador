@@ -1,0 +1,468 @@
+html, body, form, p, ul, h2, li, img, input {
+	margin:0;
+	padding:0
+}
+
+
+
+
+
+/* A fake IE information bar */
+#infobar {
+	font: message-box;
+	position:absolute;
+	width:100%;
+}
+
+/* Please adjust the values if the infobar is not looking good */
+#infobar a, #infobar a:link, #infobar a:visited, #infobar a:active {
+	display: block;
+	color: #000;
+	width:100%;
+	background: #FFFFE1 url(warning.gif) no-repeat fixed .3em .3em;
+	border-bottom: .16em outset;
+	text-decoration: none;
+	cursor: default;
+}
+
+#infobar a:hover {
+	color: #FFF;
+	background: #3169B6 url(warning2.gif) no-repeat fixed .3em .3em;
+}
+
+#infobar p{
+	margin:0px;
+	padding: .45em 0em .45em 22px;
+	font-size:11px;
+}
+
+
+
+body {
+	margin-bottom:5px;
+	background:#FFED99 url('/templates/xatworld/images/background.jpg') no-repeat center top;
+	MARGIN: 0px auto;
+	WIDTH: 100%;
+	HEIGHT: 100%;
+	TEXT-ALIGN: center
+  color: #0017A2;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px
+}
+.tablehead {
+	background: url('/templates/xatworld/images/test.png') no-repeat center top;
+}
+.texto_resaltado {
+  color: #0017A2;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  	font-weight:normal;
+	text-decoration:none;
+	padding-bottom: 4px;
+}
+ul, li, p, td, a {
+  /* color: #0017A2; PROBLEMS WITH STAFF GEN */
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#subtitulo {
+	PADDING-top: 100px;
+	padding-left:90px;
+	color:#0017A2;
+	font-family:tahoma;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.center_background {
+	background: url('/templates/xatworld/images/center_background.gif') repeat-y center top;
+  color: #ffffff;
+}
+.footer {
+	background: url('/templates/xatworld/images/footer.jpg') no-repeat center top;
+  color: #01428C;
+  TEXT-ALIGN: center
+}
+#footer1 {
+	PADDING-left: 50px
+}
+.bannerFooter {
+	PADDING-TOP: 5px
+}
+#copyright {
+	color:#000000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:9px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+.tablebottom {
+  background-color: #01428C;
+}
+
+.bordercolor {
+  background-color: #01428C;
+}
+
+.tablebgcolor {
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #01428C;
+  color: #01428C;
+}
+
+.row1 {
+  background-color: #C5F4C2;
+  color: #01428C;
+}
+
+.row2 {
+  background-color: #EDFCEC;
+  color: #01428C;
+}
+
+.head1 {
+  background-color: #ffffff;
+  color: #01428C;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.head1:hover {
+  background-color: #01428C;
+  color: #01428C;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.head2 {
+  background-color: #01428C;
+  color: #ffffff;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.title {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.smalltext {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+}
+a:hover {
+  color: #000000;
+}
+
+form {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  color: #0017A2;
+}
+
+.logininput {
+  background: url('/templates/xatworld/images/input_text.gif') no-repeat left top;
+	width: 113px !important;
+	height: 24px !important;
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+}
+.logininput input.text {
+	width: 95px;
+	border: none;
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  	PADDING-top: 2px;
+	PADDING-left: 3px;
+}
+
+.logininput input.button {
+	display: none;
+}
+.searchinput {
+  background: url('/templates/xatworld/images/input_text_search.gif') no-repeat left top;
+	width: 125px !important;
+	height: 29px !important;
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+}
+.searchinput input.text {
+	width: 100px;
+	border: none;
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 12px;
+  	margin: 3px;
+}
+.boton_rojo {
+  background: url('/templates/xatworld/images/boton_rojo.gif') no-repeat left top;
+	width: 127px !important;
+	height: 29px !important;
+}
+.boton_azul {
+  background: url('/templates/xatworld/images/boton_azul.gif') no-repeat left top;
+	width: 127px !important;
+	height: 29px !important;
+}
+.texto_boton_menu {
+  font-family: Arial,Helvetica,sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  padding-top: 5px;
+  font-weight: bold;
+  TEXT-ALIGN: center;
+}
+
+#links_menu a {
+  font-family: Arial,Helvetica,sans-serif;
+  color: #C4006E;
+  font-size: 12px;
+  font-weight: bold;
+  TEXT-ALIGN: left;
+	text-decoration:none;
+}
+#links_menu a:hover {
+  font-family: Arial,Helvetica,sans-serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  TEXT-ALIGN: left;
+	text-decoration:none;
+}
+#titulo_plugins h1 {
+  padding-left: 20px;
+  padding-bottom: 0px;
+  margin: 0px;
+  font-family: Arial,Helvetica,sans-serif;
+  color: #01428C;
+  font-size: 16px;
+  font-weight: bold;
+  TEXT-ALIGN: left;
+	text-decoration:none
+}
+.searchinput {
+  background-color: #FFFFFF;
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  WIDTH: 130px;
+}
+.boxCont {
+	MARGIN: 7px 10px; TEXT-ALIGN: left
+}
+.boxCont UL {
+	PADDING-RIGHT: 0px; 
+	PADDING-LEFT: 0px; PADDING-TOP: 0px; 
+	PADDING-BOTTOM: 0px; 
+	LIST-STYLE: none url(/templates/xatworld/images/titleBulletie.jpg) inside; 
+	MARGIN: 0px; 
+	VERTICAL-ALIGN: middle; 
+	HEIGHT: 20px; 
+	BACKGROUND-COLOR: #ffe51e; 
+	TEXT-ALIGN: left;
+}
+.boxCont LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+
+.centerMenuTitle, .centerMenuTitle A, .centerMenuTitle A:visited {
+	PADDING-LEFT: 7px; FONT-SIZE: 18px; COLOR: #544c2f; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.centerMenuTitle A:hover {
+	PADDING-LEFT: 7px; FONT-SIZE: 18px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.txtCenterTop {
+	FONT-SIZE: 10px; COLOR: #7f7b7b; PADDING-TOP: 7px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+
+.centerTxt, .centerTxt p {
+	FONT-SIZE: 12px; MARGIN: 10px 40px 5px 5px; COLOR: #090800; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.centerTxt A {
+	FONT-SIZE: 12px; COLOR: #c4006e; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline; font-weight:bold
+}
+.centerTxt A:hover {
+	FONT-SIZE: 12px; COLOR: #c4006e; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.centerTxt A:visited {
+	FONT-SIZE: 12px; COLOR: #c4006e; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+
+
+
+
+
+
+
+
+.textarea {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  width: 230px;
+}
+
+.input {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  width: 230px;
+}
+
+.select {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+}
+
+.setperpageselect {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+}
+
+.categoryselect {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+}
+
+.dropdownmarker {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  background-color: #EEEEEE;
+  color: #136c99;
+  font-size: 11px;
+}
+
+.button {
+  font-family:  Tahoma,Verdana,Arial, Helvetica, sans-serif;
+  background-color: #FFED00;
+  color: #01428C;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/*--Categories------------------------------------------------*/
+.catbgcolor {
+  background-color: #EDFCEC;
+}
+
+.maincat {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.subcat {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+/*--imagenes----------------------------------------------------*/
+.imagerow1 {
+  background-color: #E5E5E5;
+  color: #01428C;
+}
+
+.imagerow2 {
+  background-color: #EDFCEC;
+  color: #01428C;
+}
+
+/*--Comments--------------------------------------------------*/
+.commentrow1 {
+  background-color: #C5F4C2;
+  color: #01428C;
+}
+
+.commentrow2 {
+  background-color: #EDFCEC;
+  color: #01428C;
+}
+
+.commentspacerrow {
+  background-color: #d1d1d1;
+  color: #01428C;
+}
+
+.commenttextarea {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  width: 250px;
+}
+
+.commentinput {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  width: 250px;
+}
+
+.captchainput {
+  font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+  color: #0f5475;
+  font-size: 11px;
+  width: 200px;
+}
+
+/*--paginas------------------------------------------------*/
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+	border: 0px solid #000099;
+	color: #000;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 0px;
+	border: 0px solid #AAAADD;
+	background-color:#FFFFFF
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 0px solid #000099;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+
+
